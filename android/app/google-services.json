@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910789964826",
+    "project_id": "tenku-ccc67",
+    "storage_bucket": "tenku-ccc67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910789964826:android:e9656d85ed6104e4a70da3",
+        "android_client_info": {
+          "package_name": "com.tenku.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2cpHaceOxL39n0UFDI1Xj1PTTmwQu2Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

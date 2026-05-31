@@ -1,0 +1,64 @@
+name: tenku
+description: Tenku - Connect. Create. Belong.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase - Compatible stable versions (FlutterFire unified)
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+  firebase_messaging: ^14.9.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # UI & Design
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.0
+  image_cropper: ^5.0.1
+  emoji_picker_flutter: ^2.1.0
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Chat & Messaging
+  intl: ^0.19.0
+  timeago: ^3.6.1
+  uuid: ^4.0.0
+
+  # File & Storage
+  file_picker: ^8.0.0
+  path_provider: ^2.1.0
+  path: ^1.9.0
+  url_launcher: ^6.2.0
+
+  # Notifications
+  flutter_local_notifications: ^16.3.3
+
+  # Utilities
+  equatable: ^2.0.5
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.3.1
+  http: ^1.1.0
+  shared_preferences: ^2.2.3
+  video_player: ^2.8.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

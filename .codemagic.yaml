@@ -1,0 +1,23 @@
+workflows:
+  android-release:
+    name: Build Tenku Android APK
+    instance_type: mac_mini_m2
+    environment:
+      flutter: 3.22.0
+      android_sdk: android-34
+    scripts:
+      - name: Get Flutter dependencies
+        script: |
+          flutter pub get
+      - name: Build debug APK
+        script: |
+          flutter build apk --debug
+    artifacts:
+      - build/app/outputs/flutter-apk/app-debug.apk
+    publishing:
+      email:
+        recipients:
+          - mrmaize2@gmail.com
+        notify:
+          success: true
+          failure: true
